@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mama {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.shlyapa {
+    padding: 25px 105px 25px 105px;
+}
+
+.button {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px 10px 48px;
+}
+
+.button__cart {
+    background: url(../img/Cart.png) no-repeat 20px center;
+}
+
+.button--primary {
+    background-color: #1890FF;
+    color: #fff;
+}
+
+.navigation {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #939699;
+    margin-right: 30px;
+}
+
+.navigation__header {
+    padding-right: 227px;
+}
+
+.boba {
+    background: #B4D1E0;
+    padding-left: 416px;
+}
